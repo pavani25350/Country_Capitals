@@ -1,0 +1,103 @@
+
+    h2 {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px;
+    }
+
+    table,
+    th,
+    td {
+      border: 2px solid black;
+      border-collapse: collapse;
+      margin: auto;
+      background: rgb(201, 143, 105);
+    }
+
+    #tab {
+      width: 80vw;
+      height: auto;
+    }
+
+    #demo1 {
+      background: #fff;
+      color: #000;
+      position: absolute;
+      top: 120px;
+      left: 350px;
+    }
+
+    th,
+    td {
+      padding: 5px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    button {
+      font-weight: bold;
+      padding: 5px;
+      border-radius: 10px;
+      background: black;
+      color: white;
+      margin: 10px;
+    }
+
+    div {
+      width: 400px;
+      height: 150px;
+      background: black;
+      position: fixed;
+      font-weight: bold;
+      text-align: left;
+      border-radius: 20px;
+      padding: 20px;
+      color: #fff;
+      font-size: 22px;
+      top: 5px;
+      left: 35%;
+      box-shadow: 3px 3px 2px rgb(228, 218, 218);
+    }
+
+    input {
+      width: 97%;
+    }
+
+    .box {
+      display: none;
+    }
+
+    .active {
+      display: block;
+    }
+
+    @media (min-width:1300px) {
+      div {
+        left: 40%;
+      }
+
+      input {
+        width: 60%;
+        margin-left: 290px;
+      }
+    }
+
+    @media(max-width:500px) {
+      div {
+        width: 320px;
+        height: 120px;
+        left: 10%;
+        font-size: 14px;
+      }
+
+      #demo1 {
+        top: 110px;
+        left: 250px;
+      }
+    }
+
+    input {
+      padding: 10px;
+    }
